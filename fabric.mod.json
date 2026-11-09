@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "askai",
+  "version": "${version}",
+  "name": "AI",
+  "description": "Your friendly in-game AI helper. Press your hotkey to chat, get commands, build structures and change controls.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.askai.AskAIClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
